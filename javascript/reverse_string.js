@@ -1,5 +1,5 @@
 function reverseString(str) {
-  // type your code here
+  return str.split('').reverse().join('')
 }
 
 if (require.main === module) {
@@ -17,3 +17,8 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+// First we split the string into single characters
+// Then we reverse what we split
+// Then we join it back together
+// Then we return the reversed string
